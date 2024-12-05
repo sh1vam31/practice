@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+     <h2> Form Registration</h2>
+
+     <!-- Signup -->
+        <div id="signup">
+            <h1>Sign up page</h1>
+            <form >
+                <input type="text"  id="username" placeholder="Enter your name..">
+                <input type="email" id="email" placeholder="Enter your email..">
+                <input type="password"  id="password" placeholder="password">
+                <button  id="btn">Sign up</button>
+                <p> Already a user  <a href="#" id="login_btn">Login</a>      </p>
+            </form>
+        </div>
+        <!-- LOGIN -->
+        
+        <div id="login" style="display: none;">
+            <h1>Login page</h1>
+        <form>
+        <input type="email" id="email_login" placeholder="Enter your email..">
+        <input type="password"  id="password_login" placeholder="password">
+        <button id="btn2">Login</button>
+        <p> Create an Account  <a href="#" id="signup_btn">Sign up</a>      </p>
+      </form>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
